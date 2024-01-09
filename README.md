@@ -1,1 +1,19 @@
-During my second course in linear algebra, there were many times which I would have a linear map which I would want to turn into a matrix. Often, both the maps and the bases I was working with were complex, which made calculating the matrix representation time consuming and error prone. I decided to use my linear algebra and Python skills to create an interactive website for turning a linear map and basis into a matrix. The app is mainly powered by Flask and Sympy (a LaTeX powered python library).
+# Linear Map to Matrix Converter
+## Introduction
+During my second course in linear algebra, I encountered a frequent need to convert linear maps into matrices. This task became particularly challenging when working with complex maps and bases, leading to time-consuming and error-prone calculations. To address this, I developed an interactive website that simplifies this process by leveraging my knowledge in linear algebra and Python programming.
+
+## Features
+Interactive Web Interface: Easy-to-use interface for inputting linear maps and bases.
+Complex Calculations Simplified: Specifically designed to handle complex maps and bases with ease.
+Powered by Flask and Sympy: Utilizes Flask for the web framework and Sympy (a LaTeX powered Python library) for accurate and efficient mathematical computations.
+Installation
+To install and run the Linear Map to Matrix Converter on your local machine, follow these steps:
+
+## Usage
+Launch the Flask server:
+Copy code, then
+open a web browser and go to http://localhost:5000.
+Follow the on-screen instructions to input your linear map and basis.
+The website will process your input and display the corresponding matrix.
+Contributing
+Contributions to improve the Linear Map to Matrix Converter are welcome. Please feel free to fork the repository and submit pull requests.
